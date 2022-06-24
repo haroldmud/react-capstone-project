@@ -8,7 +8,6 @@ function ModelForMake({ getVehiclesData }) {
     getVehiclesData(440);
   }, []);
   const [page, setPage] = useState(0);
-  const [search, setSearch] = useState('');
   let numPages = 0;
   const vehicles = useSelector((state) => state.vehiclesReducer);
   const numOfpages = Math.floor(vehicles.length / 20);
@@ -17,16 +16,6 @@ function ModelForMake({ getVehiclesData }) {
   } else {
     numPages = numOfpages + 1;
   }
-
-  const dropvalue = (e) => {
-    setSearch(e.target.value);
-  };
-
-  const submitUrl = (e) => {
-    if (e.keyCode === 13 && search.length > 0) {
-      getVehiclesData(search);
-    }
-  };
 
   return (
     <div className="child-page">
