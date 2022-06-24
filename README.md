@@ -10,7 +10,7 @@
 
 ## Live Demo 
 
-<!-- [Live Demo Link](https://car-store-h.netlify.app) -->
+<!-- [Live Demo Link](https://deploy-preview-1--car-store-h.netlify.app/) -->
 
 ## Getting Started
 
