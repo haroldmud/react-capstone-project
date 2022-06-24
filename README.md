@@ -1,56 +1,51 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
-
-> Description the project.
-
+# Car store
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- React
+- Redux
 
-## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+<!-- ## Live Demo (if available) -->
 
+<!-- [Live Demo Link](https://livedemo.com) -->
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+- Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.
 
-
-To get a local copy up and running follow these simple example steps.
+- To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- node.js & npm
+
 ### Setup
+
+
+- git clone \<first https://github.com/haroldmud/react-capstone-project>
+- cd \<first react-capstone-project>
 
 ### Install
 
-### Usage
+- npm install
 
-### Run tests
+<!-- ### Usage -->
 
-### Deployment
+<!-- ### Run tests -->
 
-
+<!-- ### Deployment -->
 
 ## Authors
 
-👤 **Author1**
+👤 **Harold**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@haroldmud](https://hargithub.com/haroldmud)
+- Twitter: [@mudosaharold](https://twitter.com/MudosaHarold)
+- LinkedIn: [@haroldmudosa](https://www.linkedin.com/in/harold-mudosa-40124021b/)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -70,4 +65,15 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
+
 This project is [MIT](./MIT.md) licensed.
+
+## Show support
+
+Give a star if you like this project.
+
+## Acknowledge
+
+- Inspiration: Microverse
+- [Nelson Sakwa](https://www.behance.net/sakwadesignstudio)
+- etc

@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component render correctely 1`] = `
+<div
+  className="mainPage"
+>
+  <section
+    className="cardCarrier"
+  />
+  <div
+    className="pageButtons"
+  >
+    <h4>
+      1
+       
+      of
+       
+      0
+    </h4>
+    <div
+      className="btn"
+    >
+      <button
+        className="previous"
+        onClick={[Function]}
+        type="button"
+      >
+        &lt;
+      </button>
+      <button
+        className="next"
+        onClick={[Function]}
+        type="button"
+      >
+        &gt;
+      </button>
+    </div>
+  </div>
+</div>
+`;

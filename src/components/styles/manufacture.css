@@ -1,0 +1,52 @@
+.home {
+  border: purple 4px solid;
+  text-decoration-line: none;
+}
+
+.cardCarrier {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 70%;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+h3,
+p {
+  background-color: rgba(128, 0, 128, 0.616);
+  text-align: center;
+}
+
+.card {
+  text-decoration: none;
+  justify-items: center;
+  background-color: rgba(128, 0, 128, 0.616);
+  width: 95%;
+  height: 10rem;
+  border-radius: 10px;
+}
+
+.pageButtons {
+  width: 50%;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+h4 {
+  width: fit-content;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.btn {
+  width: fit-content;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+button {
+  font-size: 40px;
+  border-radius: 5px;
+}
