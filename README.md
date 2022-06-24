@@ -12,6 +12,10 @@
 
 [Live Demo Link](https://deploy-preview-1--car-store-h.netlify.app/)
 
+## Presentation video
+
+[My video](https://www.loom.com/share/8992ec8322734c41a42f34a6f6f06abf)
+
 ## Getting Started
 
 - Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.
