@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import renderer from 'react-test-renderer'
+import renderer from 'react-test-renderer';
 import '@testing-library/jest-dom/extend-expect';
 import Model from '../../_mock_/components/Model';
 
