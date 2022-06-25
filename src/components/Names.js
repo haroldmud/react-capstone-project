@@ -6,7 +6,6 @@ import './styles/manufacture.css';
 
 function Names({ getVehiclesData }) {
   const [page, setPage] = useState(0);
-  const [search, setSearch] = useState('');
   let numPages = 0;
   useEffect(() => {
     getVehiclesData('honda');
@@ -19,19 +18,9 @@ function Names({ getVehiclesData }) {
     numPages = numOfpages + 1;
   }
 
-  const dropvalue = (e) => {
-    setSearch(e.target.value);
-  };
-
-  const submitUrl = (e) => {
-    if (e.keyCode === 13 && search.length > 0) {
-      getVehiclesData(search);
-    }
-  };
-
   return (
     <div className="child-page">
-      <Link className='home' to="../">Home</Link>
+      <Link className='home' to="../">&lt;</Link>
       <h2>Vehicles Names</h2>
       <section className="cardCarrier">
         {vehicles.slice((page * 20), ((page + 1) * 20)).map((vehicle) => (

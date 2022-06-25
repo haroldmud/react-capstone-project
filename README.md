@@ -8,9 +8,13 @@
 - Redux
 
 
-<!-- ## Live Demo (if available) -->
+## Live Demo 
 
-<!-- [Live Demo Link](https://livedemo.com) -->
+[Live Demo Link](https://deploy-preview-1--car-store-h.netlify.app/)
+
+## Presentation video
+
+[My video](https://www.loom.com/share/8992ec8322734c41a42f34a6f6f06abf)
 
 ## Getting Started
 

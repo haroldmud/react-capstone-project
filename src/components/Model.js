@@ -1,13 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import { connect, useSelector, useDispatch } from 'react-redux';
+import { connect, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { VehicleByModel } from '../redux/creator';
 import './styles/manufacture.css';
 
 function Model({ getVehiclesData }) {
   const [page, setPage] = useState(0);
-  const [search, setSearch] = useState('');
-  const dispatch = useDispatch();
   let numPages = 0;
   useEffect(() => {
     getVehiclesData();
@@ -20,13 +18,10 @@ function Model({ getVehiclesData }) {
     numPages = numOfpages + 1;
   }
 
-  const dropvalue = (e) => {
-    setSearch(e.target.value);
-  };
-
   return (
     <div className="child-page">
-    <Link className='home' to="../">Home</Link>
+    <Link className='home' to="../">&lt;</Link>
+    <h2>Model</h2>
       <section className="cardCarrier">
         {vehicles.slice((page * 20), ((page + 1) * 20)).map((vehicle) => (
           <article key={vehicles.indexOf(vehicle)} className="card">

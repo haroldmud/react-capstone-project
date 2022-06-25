@@ -20,7 +20,8 @@ function Manufactures({ getVehiclesData }) {
 
   return (
       <div className="mainPage">
-        <Link className='home' to="../">Home</Link>
+        <Link className='home' to="../">&lt;</Link>
+        <h2>Manufactures</h2>
         <section className="cardCarrier">
           {vehicles.slice((page * 20), ((page + 1) * 20)).map((vehicle) => (
             <article key={vehicle.Mfr_ID} className="card">
