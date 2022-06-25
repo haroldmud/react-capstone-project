@@ -19,7 +19,8 @@ function ModelForMake({ getVehiclesData }) {
 
   return (
     <div className="child-page">
-      <Link className='home' to="../">Home</Link>
+      <Link className='home' to="../">&lt;</Link>
+      <h2>Model for make</h2>
       <section className="cardCarrier">
         {vehicles.slice((page * 20), ((page + 1) * 20)).map((vehicle) => (
           <article key={vehicles.indexOf(vehicle)} className="card">
